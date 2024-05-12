@@ -4,4 +4,6 @@ In this project, we explore the application of sentiment analysis through the le
 
 Our data is sourced from the publicly available dataset named RAVDESS (introduction on Kaggle: https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio， full dataset: https://zenodo.org/records/1188976, The Ryerson Audio-Visual Database of Emotional Speech and Song). It’s a comprehensive dataset containing speech, songs, and videos with emotional expressions such as calm, happy, sad, angry, fearful, surprise, disgust, etc. For the speech audio recognition model, we specifically used the “audio_speech_actors_01-24” pack, which includes 1440 speeches voiced by 24 actors. The relative emotion distribution is shown below:
 
-We explored two models: CNN and LSTM. Overall, CNN performed better in this audio classification task.
+We explored two models: CNN and LSTM. Overall, CNN performed better in this audio classification task, reaching to 78% testing accuracy. We also use this well-performed model to do real-time classification. 
+
+For detailed methods and experiments, please refer to the final report.
